@@ -1,0 +1,27 @@
+_id: req_ecec62129fcd47179efb67ecc019998c
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960074954
+created: 1647508275175
+url: "{{ _.gateway_url }}/graphql"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n  login(variables: {\n    username:
+    \"guest\"\n    password: \"guest123\"\n  }) {\n    accessToken\n  }\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_53da37f260e9449bad1f030351b4bc04
+authentication: {}
+metaSortKey: -1647508275175
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

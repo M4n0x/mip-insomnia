@@ -1,0 +1,23 @@
+_id: req_e2534b0c76d94eb1ade078edc6201570
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1647508257272
+created: 1647254607530
+url: "{{ _.engine_url
+  }}/quantiles?var=Alanine.aminotransferase..Enzymatic.activity.volume..in.Seru\
+  m.or.Plasma&type=split"
+name: Descriptive stats
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647339811581.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

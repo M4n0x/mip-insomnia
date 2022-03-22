@@ -1,0 +1,31 @@
+_id: req_8c851b0b67ba4a6ca75f141c91d9baa4
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1647508250577
+created: 1646516907791
+url: "{{ _.engine_url }}/login"
+name: Login
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_05b4996dad8c49c788a06eece8fe05ad
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: guest
+  password: guest123
+metaSortKey: -1647339811431.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

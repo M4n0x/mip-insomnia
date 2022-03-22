@@ -1,0 +1,27 @@
+_id: req_5c7f51c0785a41d48a1390b4bf7ace99
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960026522
+created: 1647687549285
+url: "{{ _.graphQL }}"
+name: Update user
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tupdateUser(updateUserInput: { agreeNDA: true })
+    {\n\t\tid\n\t\tusername\n\t\tfullname\n\t\temail\n\t\t\n\t\tagreeNDA\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d0c31c74d341410392095bc5b9dde8b2
+authentication: {}
+metaSortKey: -1647687549286
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

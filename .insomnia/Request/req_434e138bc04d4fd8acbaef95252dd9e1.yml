@@ -1,0 +1,26 @@
+_id: req_434e138bc04d4fd8acbaef95252dd9e1
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960268282
+created: 1647698870256
+url: "{{ _.graphQL }}"
+name: Domains
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tdomains {\n\t\tvariables {\n\t\t\tid\n\t\t}\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ebd15565dad14955817f5d094900242b
+authentication: {}
+metaSortKey: -1647698870256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

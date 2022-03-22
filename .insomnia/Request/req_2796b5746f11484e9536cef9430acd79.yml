@@ -1,0 +1,21 @@
+_id: req_2796b5746f11484e9536cef9430acd79
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1647508248188
+created: 1646834676043
+url: "{{ _.gateway_url }}/assets"
+name: Asset
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647339811381.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_2ce9bda42466453fa096ebeb62c6a4fc
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960026213
+created: 1647615876464
+url: "{{ _.graphQL }}"
+name: Get current user
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tuser
+    {\n\t\tid\n\t\tusername\n\t\tfullname\n\t\temail\n\t\tagreeNDA\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_14144752f2ef4f4fa125799cf017dcbd
+authentication: {}
+metaSortKey: -1647615876464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_f2e5ecc8257d462aa2235a21cba6c282
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960102640
+created: 1647853176171
+url: "{{ _.graphQL }}"
+name: Config
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tconfiguration
+    {\n\t\tconnectorId\n\t\thasGalaxy\n\t\tcontactLink\n\t\tversion\n\t\tskipAuth\n\t\tskipTos\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b4658424e514462ea38392ae353533e8
+authentication: {}
+metaSortKey: -1647853176172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

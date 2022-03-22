@@ -1,0 +1,21 @@
+_id: req_eea2c62af6d54bbc8f49046e03fdcc0a
+type: Request
+parentId: fld_8d328bedead8452d843eaee1729fefd1
+modified: 1647952076410
+created: 1647952057969
+url: "{{ _.gateway_url }}/assets/login.md"
+name: Login Page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647952057969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_87b9de59ae98433d9dad8ebd60eb3522
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1647508252687
+created: 1647254440751
+url: "{{ _.engine_url }}/getvars"
+name: GetVars
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647339811481.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_65c510f81bf948fda4aba428d065afc1
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960082874
+created: 1647697756461
+url: "{{ _.graphQL }}"
+name: Logout
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tlogout \n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ec3575353df7498c9e46ed03f4c14eab
+authentication: {}
+metaSortKey: -1647697756461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

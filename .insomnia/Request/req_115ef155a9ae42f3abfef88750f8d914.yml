@@ -1,0 +1,27 @@
+_id: req_115ef155a9ae42f3abfef88750f8d914
+type: Request
+parentId: fld_40d55395a0164a68ae642bf9b190f804
+modified: 1647960098948
+created: 1647960040948
+url: "{{ _.graphQL }}"
+name: List experiments
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\texperimentList {\n\t\texperiments
+    {\n\t\t\tid\n\t\t\tname\n\t\t}\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7a11de37709940dda6c6ba0799a25081
+authentication: {}
+metaSortKey: -1647960040948
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
