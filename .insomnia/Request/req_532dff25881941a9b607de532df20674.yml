@@ -1,0 +1,21 @@
+_id: req_532dff25881941a9b607de532df20674
+type: Request
+parentId: fld_8d328bedead8452d843eaee1729fefd1
+modified: 1648123900300
+created: 1648123793031
+url: "{{ _.gateway_url }}/assets/logo.png"
+name: Logo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647902617070.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_af9264c30c074c078533f2cc106344ce
+type: Request
+parentId: fld_cfe6096741c544e38154b81a6901530f
+modified: 1648123628966
+created: 1648123622110
+url: "{{ _.exareme }}/pathologies"
+name: Pathologies
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648123622110
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,18 +1,20 @@
 _id: env_1c8c84ca820e75c0ff38da0dcacb84bc568160a3
 type: Environment
 parentId: wrk_4835e2b3d5484e12b719b708e3835b06
-modified: 1647944623206
+modified: 1648123603891
 created: 1646516907781
 name: Base Environment
 data:
   base_url: http://localhost:3000
   gateway_url: http://localhost:8082
   graphQL: "{{gateway_url}}/graphql"
+  exareme: http://localhost:8080/services
 dataPropertyOrder:
   "&":
     - base_url
     - gateway_url
     - graphQL
+    - exareme
 color: null
 isPrivate: false
 metaSortKey: 1646516907781
