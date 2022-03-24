@@ -1,23 +1,22 @@
-_id: req_2ce9bda42466453fa096ebeb62c6a4fc
+_id: req_80c55ae824b24a0a91c00cd1dd5ee0ac
 type: Request
-parentId: fld_e66c67ce92c8490e9c644137eb5139f9
-modified: 1648041926209
-created: 1647615876464
+parentId: fld_fbe4d11bed9947eaa97c2a5867df4f54
+modified: 1648108708769
+created: 1648041554852
 url: "{{ _.graphQL }}"
-name: Get current user
+name: Descriptive stats
 description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"query {\n\tuser
-    {\n\t\tid\n\t\tusername\n\t\tfullname\n\t\temail\n\t\tagreeNDA\n\t}\n}"}'
+  text: '{"query":"# Todo\n"}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_14144752f2ef4f4fa125799cf017dcbd
+    id: pair_961e99255e034359a7c80b69cd4914b2
 authentication: {}
-metaSortKey: -1647687549336
+metaSortKey: -1648041554852
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
