@@ -1,17 +1,17 @@
-_id: req_2796b5746f11484e9536cef9430acd79
+_id: req_f64dc17c80a44616abf888a471ad69e3
 type: Request
-parentId: fld_8d328bedead8452d843eaee1729fefd1
-modified: 1648709674762
-created: 1646834676043
-url: "{{ _.gateway_url }}/assets"
-name: Asset
+parentId: fld_cfe6096741c544e38154b81a6901530f
+modified: 1648709726056
+created: 1648709631658
+url: "{{ _.exareme }}/algorithms"
+name: Algorithms
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1647902617020.5
+metaSortKey: -1648123622160
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

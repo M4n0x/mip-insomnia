@@ -1,17 +1,17 @@
-_id: req_2796b5746f11484e9536cef9430acd79
+_id: req_a906ecd6c8864a2a985a9bb110283d85
 type: Request
-parentId: fld_8d328bedead8452d843eaee1729fefd1
-modified: 1648709674762
-created: 1646834676043
-url: "{{ _.gateway_url }}/assets"
-name: Asset
+parentId: fld_cfe6096741c544e38154b81a6901530f
+modified: 1649058738588
+created: 1649058685539
+url: "{{ _.exareme }}/experiments/97563e39-2a66-4fb2-b376-7f2cccf742cb"
+name: Experiment
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1647902617020.5
+metaSortKey: -1649058685539
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

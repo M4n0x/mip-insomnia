@@ -1,17 +1,17 @@
-_id: req_2796b5746f11484e9536cef9430acd79
+_id: req_9111d002e95549ae8c09824718787289
 type: Request
-parentId: fld_8d328bedead8452d843eaee1729fefd1
-modified: 1648709674762
-created: 1646834676043
-url: "{{ _.gateway_url }}/assets"
-name: Asset
+parentId: fld_cfe6096741c544e38154b81a6901530f
+modified: 1650389270132
+created: 1650387951068
+url: http://127.0.0.1:8080/services/activeUser/agreeNDA
+name: AgreeNDA
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1647902617020.5
+metaSortKey: -1650387951068
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
