@@ -1,15 +1,23 @@
 _id: req_9111d002e95549ae8c09824718787289
 type: Request
 parentId: fld_cfe6096741c544e38154b81a6901530f
-modified: 1650389270132
+modified: 1654180217344
 created: 1650387951068
-url: http://127.0.0.1:8080/services/activeUser/agreeNDA
+url: "{{ _.exareme }}/activeUser/agreeNDA"
 name: AgreeNDA
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"agreeNDA": true
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_567eba1ca154460abbd5ebad7248de13
 authentication: {}
 metaSortKey: -1650387951068
 isPrivate: false

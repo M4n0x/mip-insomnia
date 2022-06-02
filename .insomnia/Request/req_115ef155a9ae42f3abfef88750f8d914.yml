@@ -1,7 +1,7 @@
 _id: req_115ef155a9ae42f3abfef88750f8d914
 type: Request
 parentId: fld_fbe4d11bed9947eaa97c2a5867df4f54
-modified: 1649236776605
+modified: 1654161662055
 created: 1647960040948
 url: "{{ _.graphQL }}"
 name: List experiments
@@ -10,12 +10,13 @@ method: POST
 body:
   mimeType: application/graphql
   text: '{"query":"query {\n\texperimentList {\n\t\texperiments
-    {\n\t\t\tid\n\t\t\tname\n\t\t}\n\t}\n}"}'
+    {\n\t\t\tid\n\t\t\tname\n\t\t\tcreatedAt\n\t\t\tupdateAt\n\t\t\tfinishedAt\n\t\t\tstatus\n\t\t}\n\t}\n}"}'
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_7a11de37709940dda6c6ba0799a25081
+    disabled: true
 authentication: {}
 metaSortKey: -1648041554902
 isPrivate: false

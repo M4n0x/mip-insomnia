@@ -1,7 +1,7 @@
 _id: req_6de7acf80a30466a904711c1b52df450
 type: Request
 parentId: fld_0caceaff56a145879273d5e6af816da1
-modified: 1650986846808
+modified: 1654161664957
 created: 1650982840702
 url: "{{ _.graphQL }}"
 name: Get Algorithms
@@ -10,15 +10,16 @@ method: POST
 body:
   mimeType: application/graphql
   text: '{"query":"fragment VarBody on VariableParameter
-    {\n\thint\n\tisRequired\n\thasMultiple\n\tallowedTypes\n}\n\nquery
-    {\n\talgorithms {\n\t\tid\n\t\tlabel\n\t\tdescription\n\t\tvariable
+    {\n\t__typename\n\thint\n\tisRequired\n\thasMultiple\n\tallowedTypes\n}\n\nquery
+    {\n\talgorithms
+    {\n\t\tid\n\t\tlabel\n\t\tdescription\n\t\t__typename\n\t\tvariable
     {\n\t\t\t...VarBody\n\t\t}\n\t\tcoVariable
     {\n\t\t\t...VarBody\n\t\t},\n\t\tparameters
-    {\n\t\t\t__typename\n\t\t\tid\n\t\t\tlabel\n\t\t\thint\n\t\t\tisRequired\n\t\t\thasMultiple\n\t\t\tdefaultValue\n\t\t\t...
+    {\n\t\t\t__typename\n\t\t\tname\n\t\t\tlabel\n\t\t\thint\n\t\t\tisRequired\n\t\t\thasMultiple\n\t\t\tdefaultValue\n\t\t\t...
     on NumberParameter
     {\n\t\t\t\tmin\n\t\t\t\tmax\n\t\t\t\tisReal\n\t\t\t}\n\t\t\t... on
-    NominalParameter
-    {\n\t\t\t\tallowedValues\n\t\t\t\tlinkedTo\n\t\t\t}\n\t\t}\n\t}\n}"}'
+    NominalParameter {\n\t\t\t\tallowedValues
+    {\n\t\t\t\t\tvalue\n\t\t\t\t\tlabel\n\t\t\t\t}\n\t\t\t\tlinkedTo\n\t\t\t}\n\t\t}\n\t}\n}"}'
 parameters: []
 headers:
   - name: Content-Type
