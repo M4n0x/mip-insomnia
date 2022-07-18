@@ -1,17 +1,17 @@
-_id: req_a906ecd6c8864a2a985a9bb110283d85
+_id: req_fd90ccf5a55e41bc90bdd021e8f3eb69
 type: Request
 parentId: fld_cfe6096741c544e38154b81a6901530f
-modified: 1654251102248
-created: 1649058685539
-url: "{{ _.exareme }}/experiments/b5ca0676-d390-462a-8a8f-4093c453af0e"
-name: Experiment
+modified: 1654180009598
+created: 1654179974356
+url: "{{ _.exareme }}/activeUser"
+name: Active user
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1649058685539
+metaSortKey: -1654179974356
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

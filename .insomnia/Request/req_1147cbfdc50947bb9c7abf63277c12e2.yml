@@ -1,0 +1,54 @@
+_id: req_1147cbfdc50947bb9c7abf63277c12e2
+type: Request
+parentId: fld_fbe4d11bed9947eaa97c2a5867df4f54
+modified: 1657714587497
+created: 1653059035445
+url: "{{ _.graphQL }}"
+name: Get Experiment
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"fragment coreInfoResult on ResultUnion {\n    ... on RawResult
+    {\n      rawdata\n    }\n    ... on TableResult
+    {\n      name\n      data\n      headers
+    {\n        name\n        type\n      }\n      tableStyle\n    }\n    ... on
+    MeanChartResult {\n      name\n      xAxis
+    {\n        label\n        categories\n      }\n      yAxis
+    {\n        label\n        categories\n      }\n      pointCIs
+    {\n        min\n        mean\n        max\n      }\n    }\n    ... on
+    HeatMapResult {\n      name\n\t\t\t__typename\n      matrix\n      xAxis
+    {\n        label\n        categories\n      }\n      yAxis
+    {\n        label\n        categories\n      }\n      heatMapStyle\n    }\n    ...
+    on BarChartResult {\n      name\n\t\t\t__typename\n      xAxis
+    {\n        label\n      }\n      yAxis
+    {\n        label\n      }\n      barValues\n      hasConnectedBars\n    }\n    ...
+    on LineChartResult {\n      name\n\t\t\t__typename\n      xAxis
+    {\n        label\n      }\n      yAxis
+    {\n        label\n      }\n      lines
+    {\n        label\n        x\n        y\n        extraLineInfos
+    {\n          label\n          values\n        }\n        type\n      }\n    }\n  }\n\nquery
+    getExperiment($id: String!) {\n \n\texperiment(id: $id)
+    {\n      name\n      id\n      domain\n      datasets\n      author
+    {\n        username\n        fullname\n      }\n      filter\n      createdAt\n      finishedAt\n      viewed\n      variables\n      coVariables\n      filterVariables\n      shared\n      status\n      formula
+    {\n        interactions\n        transformations
+    {\n          id\n          operation\n        }\n      }\n      algorithm
+    {\n        name\n        parameters
+    {\n          name\n          value\n        }\n      }\n      results
+    {\n        ... on GroupsResult {\n          groups
+    {\n            name\n            description\n            results
+    {\n              ...coreInfoResult\n            }\n          }\n        }\n        ...coreInfoResult\n      }\n    }\n  }","variables":{"id":"d6204b01-31ce-46cd-82f5-7c1129e6c1db"},"operationName":"getExperiment"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1e7e0bb3585d42848e3fdb56573e6341
+authentication: {}
+metaSortKey: -1653059035445
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

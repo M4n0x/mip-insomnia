@@ -1,11 +1,11 @@
 _id: req_e2534b0c76d94eb1ade078edc6201570
 type: Request
 parentId: fld_8ff275e947794a71ab33d079f26876a4
-modified: 1647508257272
+modified: 1657877448590
 created: 1647254607530
 url: "{{ _.engine_url
-  }}/quantiles?var=Alanine.aminotransferase..Enzymatic.activity.volume..in.Seru\
-  m.or.Plasma&type=split"
+  }}/quantiles?var=Interleukin.6..Mass.volume..in.Serum.or.Plasma&type=split&co\
+  horts=test.db,sophia.db"
 name: Descriptive stats
 description: ""
 method: GET

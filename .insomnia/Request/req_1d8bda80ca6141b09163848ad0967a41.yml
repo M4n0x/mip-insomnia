@@ -1,0 +1,28 @@
+_id: req_1d8bda80ca6141b09163848ad0967a41
+type: Request
+parentId: fld_363f9c63229c40f1b6ff9816e2de2a88
+modified: 1654690322407
+created: 1654612185158
+url: "{{ _.graphQL }}"
+name: Filter and Formula
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n\n\tfilter {\n\t\tnumberTypes\n\t}\n\tformula
+    {\n\t\tvariableType\n\t\toperationTypes\n\t}\n\t\talgorithms
+    {\n\t\tid\n\t\tlabel\n\t\thasFormula\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1eed86707bf24a3dbe08956e955b3e4a
+authentication: {}
+metaSortKey: -1654612185158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

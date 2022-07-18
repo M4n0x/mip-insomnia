@@ -1,7 +1,7 @@
 _id: req_434e138bc04d4fd8acbaef95252dd9e1
 type: Request
 parentId: fld_40d55395a0164a68ae642bf9b190f804
-modified: 1652109593562
+modified: 1657714497782
 created: 1647698870256
 url: "{{ _.graphQL }}"
 name: Domains
@@ -9,10 +9,9 @@ description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"query {\n\tdomains {\n\t\tid\n\t\tlabel\n\t\trootGroup
-    {\n\t\t\tid\n\t\t\tgroups\n\t\t\tvariables\n\t\t}\n\t\tgroups
-    {\n\t\t\tid\n\t\t\tgroups\n\t\t\t\n\t\t}\n\t\tdatasets
-    {\n\t\t\tid\n\t\t\tlabel\n\t\t\tisLongitudinal\n\t\t}\n\t}\n}"}'
+  text: '{"query":"query {\n\tdomains {\n\t\tid\n\t\tlabel\n\t\tgroups
+    {\n\t\t\tid\n\t\t\tlabel\n\t\t\tgroups\n\t\t\tvariables\n\t\t\tdatasets\n\t\t}\n\t\tvariables
+    {\n\t\t\tid\n\t\t}\n\t}\n}"}'
 parameters: []
 headers:
   - name: Content-Type

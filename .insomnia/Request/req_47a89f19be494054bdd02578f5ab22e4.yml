@@ -1,19 +1,17 @@
-_id: req_7bc742e298ee4c59a60206d4ad5c7d8a
+_id: req_47a89f19be494054bdd02578f5ab22e4
 type: Request
 parentId: fld_8ff275e947794a71ab33d079f26876a4
-modified: 1657714691748
-created: 1647254597153
-url: "{{ _.engine_url
-  }}/histogram?var=Erythrocytes....volume..in.Blood.by.Automated.count&type=com\
-  bine"
-name: Histogram
+modified: 1657869865478
+created: 1657808601694
+url: "{{ _.engine_url }}/quantiles?var=gender&type=split&cohorts=test.db"
+name: Descriptive stats nominal
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1647339811531.5
+metaSortKey: -1647339811556.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

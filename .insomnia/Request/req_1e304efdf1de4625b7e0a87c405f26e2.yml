@@ -1,10 +1,10 @@
-_id: req_115ef155a9ae42f3abfef88750f8d914
+_id: req_1e304efdf1de4625b7e0a87c405f26e2
 type: Request
 parentId: fld_fbe4d11bed9947eaa97c2a5867df4f54
-modified: 1654161662055
-created: 1647960040948
+modified: 1655991354356
+created: 1655987042150
 url: "{{ _.graphQL }}"
-name: List experiments
+name: Experiments
 description: ""
 method: POST
 body:
@@ -15,10 +15,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_7a11de37709940dda6c6ba0799a25081
-    disabled: true
+    id: pair_45925f665ce54f218dd3b0e03d293bdf
 authentication: {}
-metaSortKey: -1648041554902
+metaSortKey: -1655987042151
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
