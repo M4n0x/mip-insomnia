@@ -1,7 +1,7 @@
 _id: req_f2e5ecc8257d462aa2235a21cba6c282
 type: Request
 parentId: fld_40d55395a0164a68ae642bf9b190f804
-modified: 1653059061568
+modified: 1659105149672
 created: 1647853176171
 url: "{{ _.graphQL }}"
 name: Config
@@ -14,8 +14,11 @@ body:
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
-    id: pair_b4658424e514462ea38392ae353533e8
+    value: text
+    id: pair_431559d2c3fe497b9905f2dfc44ad564
+  - name: xsrf-token
+    value: P8npRoL6aDJ_q_l4r9dU6wvQ
+    id: pair_12a849dfcf1a49f8a930c90375dada7e
 authentication: {}
 metaSortKey: -1648041914858
 isPrivate: false

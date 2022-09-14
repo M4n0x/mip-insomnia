@@ -1,9 +1,9 @@
 _id: req_b7bcd474427042b591da589971e34cd5
 type: Request
 parentId: fld_cfe6096741c544e38154b81a6901530f
-modified: 1649058718283
+modified: 1660287161747
 created: 1649058708989
-url: "{{ _.exareme }}/experiments"
+url: "{{ _.exareme }}/experiments/34849e55-b175-48a8-98ff-75a729f85c08"
 name: list experiments
 description: ""
 method: GET

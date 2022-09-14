@@ -1,0 +1,51 @@
+_id: req_2b0f5f2d15f64a4e8c3fccf09901bed8
+type: Request
+parentId: fld_cfe6096741c544e38154b81a6901530f
+modified: 1663073619251
+created: 1658389929017
+url: "{{ _.exareme }}/experiments"
+name: Create experiment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "algorithm": {
+                "name": "TTEST_PAIRED",
+                "label": "TTEST_PAIRED",
+                "parameters": [
+                    
+                    {"name": "y", "label": "y", "value": "leftpcggposteriorcingulategyrus-rightmcggmiddlecingulategyrus"},
+    							
+                    {"name": "pathology", "label": "pathology", "value": "dementia:0.1"},
+                    {
+                        "name": "dataset",
+                        "label": "dataset",
+                        "value": "desd-synthdata,ppmi,edsd"
+                    },
+                    {
+                        "name": "filter",
+                        "label": "filter",
+                        "value": ""
+                    },
+    								{"name": "hypothesis", "label": "alt_hypothesis", "value": "different"}
+                ],
+                "type": "local_global"
+            },
+      "name": "T-test paired old"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_38bb7c9d2caf4ce184f3ae7bb5e57144
+authentication: {}
+metaSortKey: -1658389929017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

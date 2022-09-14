@@ -1,15 +1,19 @@
 _id: req_be5c29152c324bd5a293bd74de1e8f84
 type: Request
 parentId: fld_40d55395a0164a68ae642bf9b190f804
-modified: 1652109613137
+modified: 1659014506725
 created: 1651492050583
-url: "{{ _.gateway_url }}/"
+url: "{{ _.gateway_url }}/status"
 name: Status
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_dc05686788a3477190b29301c58b9911
+    name: X-CSRF-TOKEN
+    value: P8npRoL6aDJ_q_l4r9dU6wvQ
+    description: ""
 authentication: {}
 metaSortKey: -1651492050583
 isPrivate: false

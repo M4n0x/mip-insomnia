@@ -1,0 +1,39 @@
+_id: req_5e9ef83a19cd492da368fb2354d04cca
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1663055867539
+created: 1660124662751
+url: "{{ _.engine_url }}/runAlgorithm"
+name: Run Algorithm
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "algorithm": {
+        "id": "linear-regression",
+        "variable": "Alanine.aminotransferase..Enzymatic.activity.volume..in.Serum.or.Plasma",
+        "covariables": [
+          "Urea.nitrogen..Mass.volume..in.Serum.or.Plasma",
+          "Albumin..Mass.volume..in.Serum.or.Plasma"
+        ]
+      },
+      "datasets": [
+        "sophia.db"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6091a339bb284edbbc8bdb84a471d437
+authentication: {}
+metaSortKey: -1660124662751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_4a28ffe79c4a4b2e81d888266a2ff95f
+type: Request
+parentId: fld_8ff275e947794a71ab33d079f26876a4
+modified: 1662976165290
+created: 1662724016456
+url: "{{ _.engine_url }}/descriptivestats"
+name: Descriptive stats
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "variables": [ "Alanine.aminotransferase..Enzymatic.activity.volume..in.Serum.or.Plasma"
+      ],
+      "covariables": [
+        "Albumin..Mass.volume..in.Serum.or.Plasma"
+      ],
+      "datasets": [
+        "sophia.db",
+    		"test.db",
+    		"omop_test.db"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_68fd910440e94278b891396ab4877b2d
+authentication: {}
+metaSortKey: -1662724016456
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

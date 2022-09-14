@@ -1,11 +1,9 @@
 _id: req_7bc742e298ee4c59a60206d4ad5c7d8a
 type: Request
 parentId: fld_8ff275e947794a71ab33d079f26876a4
-modified: 1657714691748
+modified: 1662723525768
 created: 1647254597153
-url: "{{ _.engine_url
-  }}/histogram?var=Erythrocytes....volume..in.Blood.by.Automated.count&type=com\
-  bine"
+url: "{{ _.engine_url }}/histogram?var=race&type=combine"
 name: Histogram
 description: ""
 method: GET

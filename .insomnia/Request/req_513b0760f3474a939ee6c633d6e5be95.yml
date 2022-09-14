@@ -1,16 +1,16 @@
-_id: req_ecec62129fcd47179efb67ecc019998c
+_id: req_513b0760f3474a939ee6c633d6e5be95
 type: Request
 parentId: fld_cb242cca4e3146c9b835e9803802b2cd
-modified: 1659109382373
-created: 1647508275175
+modified: 1659448885913
+created: 1659096193331
 url: "{{ _.gateway_url }}/graphql"
-name: Login
+name: Refresh
 description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"mutation {\n  login(variables: {\n    username:
-    \"guest\"\n    password: \"guest123\"\n  })
+  text: '{"query":"mutation {\n  refresh(refreshToken:
+    \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250ZXh0Ijp7ImlkIjoiZ3Vlc3QiLCJ1c2VybmFtZSI6Imd1ZXN0IiwiZXh0cmFGaWVsZHMiOnsic2lkIjoiZGRjNWY1MWFhYzZjNWJiOTY0NzM2MjkwNWQwODM5MmMifX0sImlhdCI6MTY1OTEwOTM4NiwiZXhwIjoxNjU5MjgyMTg2fQ.wKCkOD7_jkZu-n1wc-WJMkTtquvowBzwfctsnopsd4c\")
     {\n    accessToken\n\t\trefreshToken\n  }\n}"}'
 parameters: []
 headers:
@@ -18,7 +18,7 @@ headers:
     value: application/json
     id: pair_53da37f260e9449bad1f030351b4bc04
 authentication: {}
-metaSortKey: -1648041561336.5
+metaSortKey: -1648041561311.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_5c7f51c0785a41d48a1390b4bf7ace99
 type: Request
 parentId: fld_e66c67ce92c8490e9c644137eb5139f9
-modified: 1654176711714
+modified: 1662364063547
 created: 1647687549285
 url: "{{ _.graphQL }}"
 name: Update user
@@ -9,7 +9,7 @@ description: ""
 method: POST
 body:
   mimeType: application/graphql
-  text: '{"query":"mutation {\n\tupdateUser(updateUserInput: { agreeNDA: false })
+  text: '{"query":"mutation {\n\tupdateUser(updateUserInput: { agreeNDA: true })
     {\n\t\tid\n\t\tusername\n\t\tfullname\n\t\temail\n\t\tagreeNDA\n\t}\n}"}'
 parameters: []
 headers:

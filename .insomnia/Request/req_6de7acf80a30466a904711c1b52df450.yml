@@ -1,7 +1,7 @@
 _id: req_6de7acf80a30466a904711c1b52df450
 type: Request
 parentId: fld_0caceaff56a145879273d5e6af816da1
-modified: 1655985644838
+modified: 1660310937743
 created: 1650982840702
 url: "{{ _.graphQL }}"
 name: Get Algorithms
@@ -12,7 +12,7 @@ body:
   text: '{"query":"fragment VarBody on VariableParameter
     {\n\t__typename\n\thint\n\tisRequired\n\thasMultiple\n\tallowedTypes\n}\n\nquery
     {\n\talgorithms
-    {\n\t\tid\n\t\tlabel\n\t\tdescription\n\t\t__typename\n\t\tvariable
+    {\n\t\tid\n\t\tlabel\n\t\ttype\n\t\tdescription\n\t\t__typename\n\t\tvariable
     {\n\t\t\t...VarBody\n\t\t}\n\t\tcoVariable
     {\n\t\t\t...VarBody\n\t\t},\n\t\tparameters
     {\n\t\t\t__typename\n\t\t\tname\n\t\t\tlabel\n\t\t\thint\n\t\t\tisRequired\n\t\t\thasMultiple\n\t\t\tdefaultValue\n\t\t\t...
