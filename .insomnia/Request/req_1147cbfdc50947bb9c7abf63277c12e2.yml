@@ -1,7 +1,7 @@
 _id: req_1147cbfdc50947bb9c7abf63277c12e2
 type: Request
 parentId: fld_fbe4d11bed9947eaa97c2a5867df4f54
-modified: 1662550580770
+modified: 1663844147165
 created: 1653059035445
 url: "{{ _.graphQL }}"
 name: Get Experiment
@@ -37,7 +37,7 @@ body:
     {\n          name\n          value\n        }\n      }\n      results
     {\n        ... on GroupsResult {\n          groups
     {\n            name\n            description\n            results
-    {\n              ...coreInfoResult\n            }\n          }\n        }\n        ...coreInfoResult\n      }\n    }\n  }","variables":{"id":"dca88bb5-e4a9-4322-8ef1-82f86ec628fa"},"operationName":"getExperiment"}'
+    {\n              ...coreInfoResult\n            }\n          }\n        }\n        ...coreInfoResult\n      }\n    }\n  }","variables":{"id":"316644e7-de8e-42d1-9139-771cb87b33d9"},"operationName":"getExperiment"}'
 parameters: []
 headers:
   - name: Content-Type
